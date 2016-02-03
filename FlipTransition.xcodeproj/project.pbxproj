@@ -14,6 +14,8 @@
 		40F442041C5B49AF0092E0AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F442021C5B49AF0092E0AD /* LaunchScreen.storyboard */; };
 		40F4420F1C5B49AF0092E0AD /* FlipTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F4420E1C5B49AF0092E0AD /* FlipTransitionTests.swift */; };
 		40F4421A1C5B49AF0092E0AD /* FlipTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F442191C5B49AF0092E0AD /* FlipTransitionUITests.swift */; };
+		40F442281C5B49D10092E0AD /* FlipTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F442271C5B49D10092E0AD /* FlipTransition.swift */; };
+		40F4422A1C619CE40092E0AD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F442291C619CE40092E0AD /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		40F442151C5B49AF0092E0AD /* FlipTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F442191C5B49AF0092E0AD /* FlipTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTransitionUITests.swift; sourceTree = "<group>"; };
 		40F4421B1C5B49AF0092E0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F442271C5B49D10092E0AD /* FlipTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipTransition.swift; sourceTree = "<group>"; };
+		40F442291C619CE40092E0AD /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				40F441F91C5B49AF0092E0AD /* AppDelegate.swift */,
 				40F441FB1C5B49AF0092E0AD /* ViewController.swift */,
+				40F442291C619CE40092E0AD /* SecondViewController.swift */,
+				40F442271C5B49D10092E0AD /* FlipTransition.swift */,
 				40F441FD1C5B49AF0092E0AD /* Main.storyboard */,
 				40F442001C5B49AF0092E0AD /* Assets.xcassets */,
 				40F442021C5B49AF0092E0AD /* LaunchScreen.storyboard */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F4422A1C619CE40092E0AD /* SecondViewController.swift in Sources */,
+				40F442281C5B49D10092E0AD /* FlipTransition.swift in Sources */,
 				40F441FC1C5B49AF0092E0AD /* ViewController.swift in Sources */,
 				40F441FA1C5B49AF0092E0AD /* AppDelegate.swift in Sources */,
 			);
